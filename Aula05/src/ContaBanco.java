@@ -72,7 +72,7 @@ public class ContaBanco {
             this.setSaldo(this.getSaldo() - v);
             System.out.println("Mensalidade paga com sucesso por " + this.getDono());
         } else {
-            System.out.println("Impossivel pagar uma conta fechada!");
+            System.out.println("Impossivel pagar.Conta de " + this.getDono() + " fechada!");
         }
     }
 

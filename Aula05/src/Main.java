@@ -17,6 +17,9 @@ public class Main {
         p1.sacar(160);
         p1.fecharConta();
 
+        p1.pagarMensal();
+        p2.pagarMensal();
+
         p1.estadoAtual();
         p2.estadoAtual();
     }
