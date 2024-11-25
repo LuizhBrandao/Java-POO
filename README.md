@@ -1,5 +1,3 @@
-# POO-Java
-Programação Orientada a Objeto (POO) Java
 🌟 **Programação Orientada a Objetos (POO) em Java** 🌟
 
 A **Programação Orientada a Objetos (POO)** é um paradigma de programação baseado no conceito de **objetos** e **classes**. Em Java, tudo gira em torno de objetos, que são representações de entidades do mundo real com características (atributos) e comportamentos (métodos).
