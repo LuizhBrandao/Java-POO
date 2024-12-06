@@ -11,7 +11,7 @@ A **Programação Orientada a Objetos (POO)** é um paradigma de programação b
   * Uma **classe** é o modelo ou a estrutura que define as características e comportamentos de um objeto. É como um "molde" para criar objetos.
     
     *    **Exemplo**: código
-      
+     ``` 
       public class Carro {
       
           // Atributos (variáveis de instância)
@@ -29,13 +29,12 @@ A **Programação Orientada a Objetos (POO)** é um paradigma de programação b
              }
       
       }
-      
 2. **Objeto**:
   
   * Um **objeto** é uma instância de uma classe. Cada objeto tem seu próprio estado (valores dos atributos) e pode executar comportamentos (métodos).
     
     * **Exemplo** : código
-      
+      ```
       public class TesteCarro {
       
           public static void main(String[] args) {
@@ -49,8 +48,6 @@ A **Programação Orientada a Objetos (POO)** é um paradigma de programação b
           }
       
       }
-      
-
 * * *
 
 ### 🚀 **Pilares da POO**:
@@ -60,7 +57,7 @@ A **Programação Orientada a Objetos (POO)** é um paradigma de programação b
   * Esconde os detalhes internos de um objeto, protegendo os dados. É implementado usando **modificadores de acesso** (`private`, `public`, `protected`) e métodos `get` e `set`.
     
     * **Exemplo**: código
-      
+      ```
       public class Carro {
       
           private String cor; // Atributo encapsulado
@@ -79,14 +76,13 @@ A **Programação Orientada a Objetos (POO)** é um paradigma de programação b
       
           }
       
-      }
-      
+      } 
 2. **Herança** 👪:
   
   * Permite que uma classe herde atributos e métodos de outra classe. Facilita a reutilização de código.
     
     * **Exemplo**:código
-      
+      ```
       public class Veiculo {
       
           void ligar() {
@@ -101,14 +97,13 @@ A **Programação Orientada a Objetos (POO)** é um paradigma de programação b
       
           // Carro herda o método ligar()
       
-      }
-      
+      }    
 3. **Polimorfismo** 🎭:
   
   * Permite que um objeto de uma classe derivada (subclasse) seja tratado como um objeto da classe base (superclasse). Métodos podem ter comportamentos diferentes dependendo do objeto.
     
     * **Exemplo**: código
-      
+      ```
       class Animal {
       
           void fazerSom() {
@@ -139,14 +134,13 @@ A **Programação Orientada a Objetos (POO)** é um paradigma de programação b
       
           }
       
-      }
-      
+      }  
 4. **Abstração** 🎨:
   
   * Esconde detalhes complexos, mostrando apenas as funcionalidades essenciais. Em Java, isso pode ser feito com **classes abstratas** e **interfaces**.
     
     * **Exemplo**: código
-      
+      ```
       abstract class Forma {
       
           abstract void desenhar(); // Método abstrato
@@ -162,8 +156,6 @@ A **Programação Orientada a Objetos (POO)** é um paradigma de programação b
           }
       
       }
-      
-
 * * *
 
 ### 🔑 **Benefícios da POO**:
